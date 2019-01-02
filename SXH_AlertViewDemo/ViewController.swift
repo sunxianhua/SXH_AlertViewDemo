@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             dataArray.append(model)
         }
         
-        let alertView = SXH_SheetAlertView.init(title: "", message: "", modelArray: dataArray, position: .center)
+        let alertView = SXH_SheetAlertView.init(title: "", message: "", modelArray: dataArray, position: .bottom)
         alertView.showAlertViewCallback { (index) in
             debugPrint("\(index)")
         }
