@@ -98,7 +98,6 @@ class SXH_BaseView: UIView {
         UIView.animate(withDuration: 0.34, animations: { [unowned self] in
             self.costomView.alpha = 1.0
         })
-        debugPrint("ddd")
         
     }
     
