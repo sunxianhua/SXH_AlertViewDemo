@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
         var dataArray :[SXH_CellModel] = Array()
-        for item in ["第一","第二","第三","第四","第二","第三","第四","第二","第三","第四","第二","第三","第四","第二","第三","第四","第二","第三","第四","第二","第三","第四"] {
+        for item in ["第一","第二","第三","第四","第二","第三","第四"] {
             let model = SXH_CellModel.init(titleText: item, detailText: "", iconImageViewString: nil)
             dataArray.append(model)
         }
